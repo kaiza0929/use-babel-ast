@@ -48,8 +48,8 @@ class SonInLaw extends Parent {
         return `私は${super.name}義理の息子です`;
     }
 
-    remove(): number {
-        return -1;
+    remove(num: number, message: any): string {
+        return num.toString() + message;
     }
 
 }
